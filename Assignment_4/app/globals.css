@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+  color: #1d1d1d;
+}
+
+a {
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #000;
+}
+
+button, a.button {
+  background-color: #ec4899;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+button:hover, a.button:hover {
+  background-color: #d9468b;
+}
